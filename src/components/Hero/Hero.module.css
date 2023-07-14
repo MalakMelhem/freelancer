@@ -1,0 +1,37 @@
+.hero{
+    background-color: #1abc9c;
+    width: 100%;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+.displyCenter{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5em 0;
+}
+.hero .img{
+    width: 30%;
+    height: auto;
+}
+.hero .img img{
+    width: 100%;
+    height: 100%;
+}
+.hero p{
+    font-size: 24px;
+    color:#FFF;
+    font-weight: 400;
+    text-align: center;
+}
+@media only screen and (max-width: 850px) {
+    .displyCenter{
+     padding: 1em 0;
+    }
+    .hero .img{
+        width: 50%;  
+    }
+  }

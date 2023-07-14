@@ -1,0 +1,58 @@
+.footer .mainFooter{
+    display: flex;
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 5em;
+}
+.footer .mainFooter .footerItem{
+    padding: 0 4em;
+    text-align: center;
+    width: 90%;
+}
+.footer .mainFooter .footerItem h3{
+    font-size: 1.5rem;
+}
+.footer .mainFooter .footerItem p{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.footer .mainFooter .footerItem p a{
+    color: #1abc9c;
+    font-weight: 500;
+}
+.footer .mainFooter .footerItem .listIcons{
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    justify-content: space-between;
+    width: 250px;
+    margin: auto;
+}
+.footer .mainFooter .footerItem .listIcons li{
+    border: 1.5px solid #FFF;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: 0.7em;
+    transition: 0.5s ease-in-out;
+}
+.footer .mainFooter .footerItem .listIcons li:hover{
+    border-color: #1abc9c;
+}
+.footer .mainFooter .footerItem .listIcons li:hover i{
+    color: #1abc9c;
+}
+.footer .tailFooter{
+    background-color: #1a252f;
+    color: #FFF;
+    text-align: center;
+    padding: 1em;
+}
+@media only screen and (max-width: 1254px) {
+    .footer .mainFooter{
+        flex-wrap: wrap;
+    }
+  }

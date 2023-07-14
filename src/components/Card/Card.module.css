@@ -1,0 +1,41 @@
+.card{
+    width: fit-content;
+    position: relative;
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+}
+.card .img{
+    max-width: 25rem;
+    border-radius: 0.5rem;
+    height: 257.109px;
+}
+.card .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+.card .overlay{
+    background-color: rgba(26, 188, 156, 0.9);
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.card:hover .overlay{
+    opacity: 1;
+}
+.card .overlay i{
+    color: #FFF;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+}

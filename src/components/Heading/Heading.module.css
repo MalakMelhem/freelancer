@@ -1,0 +1,81 @@
+.heading{
+    margin: auto;
+}
+h1{
+    font-size: 3rem;
+    line-height: 3.5rem;
+    color: #FFF;
+    text-align: center;
+}
+.icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 500px;
+}
+.icon i{
+    color: #FFF;
+    font-size: 29px;
+
+}
+.icon::after{
+    content: '';
+    height: 2px;
+    border: 1px solid #FFF;
+    border-radius: 1rem;
+    width: 18%;
+    position: absolute;
+    top:50%;
+    right: 25%;
+    background-color: #FFF;
+}
+.icon::before{
+    content: '';
+    height: 2px;
+    border: 1px solid #FFF;
+    border-radius: 1rem;
+    width: 18%;
+    position: absolute;
+    top:50%;
+    left:25%;
+    background-color: #FFF;
+}
+@media only screen and (max-width: 850px) {
+    .icon{
+        width: 90%;
+    }
+  }
+
+.HeaderClass{
+  color: #2c3e50;
+}  
+.iconClass{
+    color: #2c3e50;
+}
+.iconClass i{
+   color: #2c3e50; 
+}
+.iconClass::after{
+    background-color: #2c3e50;
+    content: '';
+    height: 2px;
+    border: 1px solid #2c3e50;
+    border-radius: 1rem;
+    width: 18%;
+    position: absolute;
+    top:50%;
+    right: 25%;
+}
+.iconClass::before{
+    content: '';
+    height: 2px;
+    border: 1px solid #2c3e50;
+    border-radius: 1rem;
+    width: 18%;
+    position: absolute;
+    top:50%;
+    left:25%;
+    background-color: #2c3e50;
+
+}

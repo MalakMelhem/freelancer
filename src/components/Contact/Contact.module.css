@@ -1,0 +1,47 @@
+.contact{
+    padding: 2em 5em 5em;
+}
+.contact .contactForm{
+    width: 60%;
+    margin:2em auto;
+}
+.contact .contactForm form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.contact .contactForm form label{
+    color: #6c757d;
+    font-size: 1.5rem;
+    text-align: left;
+    padding-left: 0;
+    width: 100%;
+}
+.contact .contactForm form input,textarea{
+    width: 100%;
+    background-color: transparent;
+    outline: transparent;
+    border: none;
+    border-bottom: 1px solid #6c757d;
+    margin-bottom: 3em;
+}
+.contact .contactForm form textarea{
+    height: 8rem;
+}
+.contact .contactForm form button{
+    color: #FFF;
+    pointer-events: none;
+    opacity: 0.65;
+    background-color: #1abc9c;
+    padding: 1rem 1.75rem;
+    font-size: 1.25rem;
+    border: 1px solid #1abc9c;
+    border-radius: 10px;
+    display: inline-block;
+    width: 110px;
+}
+@media only screen and (max-width: 1407px) {
+    .contact{
+        padding: 2em;
+    }
+  }
